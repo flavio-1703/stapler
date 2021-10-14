@@ -1,0 +1,103 @@
+:root {
+    /*Button Color*/
+    --primary: rgb(0, 122, 225);
+    --warning: rgb(225, 204, 0);
+    --danger:  rgb(225, 59, 48);
+    --success: rgb(52, 199, 89);
+    --white:   rgb(242, 242, 247);
+    --dark:    rgb(28, 28, 30);
+
+    /*Button Font size*/
+    --small-font: 14px;
+    --medium-font: 18px;
+    --large-font: 20px;
+
+    /* Button Padding */
+    --small-padding: 5px 15px;
+    --medium-padding: 10px 20px;
+    --large-padding: 15px 30px;
+
+    --transition-time: 0.3s;
+    --translate-y: -2px;
+    --border-thickness: 2px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform var(--transition-time) ease;
+}
+
+.button:hover {
+    transform: translateY( var(--translate-y) );
+}
+
+/* Button Colors and Styles */
+
+/* Solid button */
+.button__primary__solid {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+}
+
+.button__warning__solid {
+    background-color: var(--warning);
+    color: var(--white);
+    border: none;
+}
+
+.button__danger__solid {
+    background-color: var(--danger);
+    color: var(--white);
+    border: none;
+}
+
+.button__success__solid {
+    background-color: var(--success);
+    color: var(--white);
+    border: none;
+}
+
+/* Outline button */
+.button__primary__outline {
+    background-color: transparent;
+    border: var(--border-thickness) solid var(--primary);
+    color: var(--primary);
+}
+
+.button__warning__outline {
+    background-color: transparent;
+    border: var(--border-thickness) solid var(--warning);
+    color: var(--warning);
+}
+
+.button__danger__outline {
+    background-color: transparent;
+    border: var(--border-thickness) solid var(--danger);
+    color: var(--danger);
+}
+
+.button__success__outline {
+    background-color: transparent;
+    border: var(--border-thickness) solid var(--success);
+    color: var(--success);
+}
+
+/* Button Sizes */
+.button__small {
+    padding: var(--small-padding);
+    font-size: var(--small-font);
+}
+
+.button__medium {
+    padding: var(--medium-padding);
+    font-size: var(--medium-font);
+}
+
+.button__large {
+    padding: var(--large-padding);
+    font-size: var(--large-font);
+}

@@ -1,0 +1,84 @@
+:root {
+    font-size: 16px;
+}
+
+
+.settings-title {
+    font-size: 3rem;
+}
+
+.accordion-group {
+    margin-top: 2rem;
+}
+
+.title {
+    margin-left: 1rem;
+}
+
+.accordion {
+    border: none;
+    box-shadow: none;
+    background: whitesmoke;
+}
+
+.accordion-icon {
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.652);
+}
+
+.accordion-details {
+    margin-top: 2rem;
+}
+
+.summary {
+    border-bottom: 1px solid lightgray;
+}
+
+.spanner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanner-left {
+    margin-left: 1rem;
+}
+
+.spanner-left-detail {
+    font-size: 0.6rem;
+}
+
+.switch {
+    margin-left: auto;
+}
+
+.holder {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.holder-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.holder-label {
+    font-size: 0.6rem;
+}
+
+.edit {
+    margin-left: auto;
+}
+
+.edit:hover {
+    cursor: pointer;
+    color: rgb(59, 59, 255);
+    transform: scale(1.2);
+}
